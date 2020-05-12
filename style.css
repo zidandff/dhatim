@@ -1,0 +1,129 @@
+* {
+    outline: none !important;
+    padding: 0;
+}
+
+
+
+.nav-item {
+    padding: 0 15px;
+}
+
+.nav-link {
+    white-space: nowrap;
+}
+
+.envelope {
+    margin: 0;
+    padding: 0;
+}
+
+.fa-envelope {
+    font-size: 24px;
+    background-color: #0069d9;
+    color: #fff;
+    height: 100%;
+}
+
+
+.fa-envelope:hover {
+    color: #eee !important;
+}
+
+.nav-logo {
+    height: 40px;
+    object-fit: scale-down;
+}
+
+.navbar-toggler {
+    color: #0069d9;
+    font-size: 1.8rem;
+}
+
+header {
+    height: 100vh;
+    background-image: linear-gradient( #fff 50%, rgba(0, 105, 217, .4) 100%);
+}
+
+.bg-illus {
+    background-image: url(img/server.svg);
+    background-size: contain;
+    height: 350px;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: -2;
+}
+
+.banner {
+    background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+    color: #fff;
+}
+
+.product {
+    margin-top: 80px;
+}
+
+.product .card {
+    min-height: 500px;
+}
+
+.benefits {
+    margin-top: 250px;
+    background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+    background-size: 60%;
+    background-repeat: no-repeat;
+}
+
+.works {
+    background-image: linear-gradient(120deg, #66dbff 0%, #398bff 100%);
+    background-size: 60%;
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+.desc li {
+    list-style: none;
+    padding-left: 1.3rem;
+}
+
+footer {
+    background-color: #0069d9;
+    color: white;
+    margin-top: 400px;
+}
+
+.main-footer {
+    padding: 5rem 0;
+}
+
+.footer-nav li a, .footer-nav li{
+    list-style-type: none;
+    text-decoration: none;
+    color: white;
+    padding: 0;
+    margin: 0;
+}
+
+footer .contact a {
+    color: aqua;
+    text-decoration: underline;
+}
+
+@media (max-width: 992px){
+    .benefits {
+        background-size: 100%;
+    }
+    .works {
+        background-size: 100%;
+    }
+}
+
+
+@media (max-width: 568px){
+    p,a {
+        font-size: 1.2rem;
+    }
+    .bg-illus {
+        height: 250px;
+    }
+}
